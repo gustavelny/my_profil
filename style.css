@@ -1,0 +1,73 @@
+Body {
+  background-color: rgb(150, 150, 150);
+  color: rgb(15, 15, 15);
+  font-family: arial;
+}
+#page {
+  width: 800px;
+  margin: 20px auto;
+}
+h1 {
+  color: darkred;
+  font-family: Courier;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 10px auto;
+  width: 200px;
+}
+
+h2 {
+  color: darkred;
+  font-family: "Lora";
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+h3 {
+  color: rgb(11, 0, 80);
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+div {
+  border: 5px;
+  margin: 15px;
+}
+
+.principal {
+  border: 4px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  width: 200px;
+  margin: 10px auto;
+}
+
+@media (max-width: 700px) {
+  #page {
+    width: auto;
+    margin: 0px auto;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px darkgrey;
+}
